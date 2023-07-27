@@ -1,3 +1,23 @@
+#hd {
+  height: 5rem;
+}
+#hd .navbar-brand {
+  width: 7rem;
+  height: 2.5rem;
+  background-image: url(../img/logo_w.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#hd:hover {
+  background-color: white;
+}
+#hd:hover .navbar-brand {
+  background-image: url(../img/logo.png);
+}
+#hd:hover a {
+  color: black;
+}
 #hd a {
   color: var(--bbycolor);
 }
@@ -62,6 +82,17 @@
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.more {
+  border: #222 1px solid;
+  color: #222;
+  font-size: 1.5rem;
+}
+.more:hover {
+  border-color: red;
+  color: red;
+  text-decoration: none;
 }
 
 @keyframes bani {
